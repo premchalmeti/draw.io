@@ -1,17 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T14:11:28.563Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="1TfRHU8e7uzCt3wU1XeB" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T14:23:30.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="5T4ndzAMYT3rURxsvz74" version="16.5.3" type="github">
   <diagram id="M9FxckGvcqYmzk5mts2L" name="Page-1">
     <mxGraphModel dx="2084" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ra3i45HdzzYzxUx_76pO-19" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1480" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ra3i45HdzzYzxUx_76pO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ra3i45HdzzYzxUx_76pO-20" target="Ra3i45HdzzYzxUx_76pO-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ra3i45HdzzYzxUx_76pO-20" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="585" y="80" width="100" height="100" as="geometry" />
+        <mxCell id="Ra3i45HdzzYzxUx_76pO-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="Ra3i45HdzzYzxUx_76pO-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="180" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ra3i45HdzzYzxUx_76pO-22" target="Ra3i45HdzzYzxUx_76pO-32">
           <mxGeometry relative="1" as="geometry" />
@@ -72,14 +68,8 @@
         <mxCell id="Ra3i45HdzzYzxUx_76pO-27" value="summarize_campaign_month (CampaignMonthSummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="790" y="820" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ra3i45HdzzYzxUx_76pO-28" value="summarize_sign_day (SignDaySummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="331.25" y="1140" width="200" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-29" value="summarize_organization_campaign_day (OrganizationCampaignDaySummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="456.25" y="660" width="285" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Ra3i45HdzzYzxUx_76pO-30" value="summarize_campaign_hour_month (CampaignHourMonthSummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="283" y="1360" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-31" value="summarize_campaignless_sign_hour (CampaignlessSignHourSummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="760" y="500" width="240" height="60" as="geometry" />
@@ -103,6 +93,18 @@
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-50" value="summarize_campaign_hour_month (CampaignHourMonthSummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="780" y="660" width="285" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra3i45HdzzYzxUx_76pO-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra3i45HdzzYzxUx_76pO-54" target="Ra3i45HdzzYzxUx_76pO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra3i45HdzzYzxUx_76pO-54" value="summarize_old_sign_hours" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="10" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra3i45HdzzYzxUx_76pO-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra3i45HdzzYzxUx_76pO-55" target="Ra3i45HdzzYzxUx_76pO-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ra3i45HdzzYzxUx_76pO-55" value="&lt;div style=&quot;line-height: 18px&quot;&gt;BlipManager.enqueue_summaries&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="700" y="10" width="235" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
