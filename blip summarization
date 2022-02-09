@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T14:23:30.204Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="5T4ndzAMYT3rURxsvz74" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T14:25:54.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.87 Safari/537.36" etag="ZNyhxo5v-d6NG3KlEiKN" version="16.5.3" type="github">
   <diagram id="M9FxckGvcqYmzk5mts2L" name="Page-1">
     <mxGraphModel dx="2084" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           <mxGeometry x="456.25" y="660" width="285" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-31" value="summarize_campaignless_sign_hour (CampaignlessSignHourSummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="760" y="500" width="240" height="60" as="geometry" />
+          <mxGeometry x="920" y="500" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ra3i45HdzzYzxUx_76pO-32" target="Ra3i45HdzzYzxUx_76pO-23">
           <mxGeometry relative="1" as="geometry" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-33" value="has advertisers" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="820" y="360" width="120" height="110" as="geometry" />
+          <mxGeometry x="980" y="360" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Ra3i45HdzzYzxUx_76pO-47" value="summarize_sign_day (SignDaySummarizer)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="235" y="840" width="160" height="60" as="geometry" />
